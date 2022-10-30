@@ -1,0 +1,98 @@
+Skip to content
+gonjila
+/
+re-educate-officeHours1
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+More
+re-educate-officeHours1/trivo.css
+@gonjila
+gonjila feat: upload project
+ History
+ 1 contributor
+77 lines (65 sloc)  1010 Bytes
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+}
+
+section.left {
+  height: 100vh;
+  width: auto;
+}
+
+section.left > img {
+  width: 100%;
+  height: 100%;
+}
+
+section.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+section.right > form {
+  width: 430px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+section.right > form > header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.inputWrapper > label > span {
+  color: red;
+}
+
+.inputWrapper > input {
+  padding: 16px;
+  border: 1px solid #949494;
+  border-radius: 8px;
+}
+
+button {
+  border-radius: 8px;
+  padding: 18px 0;
+}
+
+button[type="submit"] {
+  color: white;
+  background: #4443ff;
+  box-shadow: 9px 9px 10px rgba(114, 113, 255, 0.25);
+}
+button[type="button"] {
+  background: #ffffff;
+  border: 1px solid #949494;
+}
+
+.login {
+  text-align: center;
+}
+.login > a {
+  color: #4443ff;
+}
+.paragraph{
+    /* max-width: calc(35em * 0.5); */
+    max-width:  40ch;
+}
